@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>0</y>
+      <width>421</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuStyle">
+    <property name="title">
+     <string>Style</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionWidth"/>
+    <addaction name="actionColor"/>
+   </widget>
+   <widget class="QMenu" name="menuArchive">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="actionClear"/>
+    <addaction name="actionDelete"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionEraser"/>
+    <addaction name="actionBrush"/>
+   </widget>
+   <widget class="QMenu" name="menuFigures">
+    <property name="title">
+     <string>Figures</string>
+    </property>
+    <addaction name="actionEllipse"/>
+    <addaction name="actionSquare"/>
+    <addaction name="actionRectangle"/>
+    <addaction name="actionLine"/>
+   </widget>
+   <addaction name="menuArchive"/>
+   <addaction name="menuStyle"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuFigures"/>
+  </widget>
+  <action name="actionWidth">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/width.png</normaloff>../../../../Qt/Tools/icons/width.png</iconset>
+   </property>
+   <property name="text">
+    <string>Width</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/exit.png</normaloff>../../../../Qt/Tools/icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/color.png</normaloff>../../../../Qt/Tools/icons/color.png</iconset>
+   </property>
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/sss.png</normaloff>../../../../Qt/Tools/icons/sss.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As</string>
+   </property>
+  </action>
+  <action name="actionEraser">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/err.png</normaloff>../../../../Qt/Tools/icons/err.png</iconset>
+   </property>
+   <property name="text">
+    <string>Eraser</string>
+   </property>
+  </action>
+  <action name="actionEllipse">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/z.png</normaloff>../../../../Qt/Tools/icons/z.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ellipse</string>
+   </property>
+  </action>
+  <action name="actionSquare">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/rect.png</normaloff>../../../../Qt/Tools/icons/rect.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rectangle</string>
+   </property>
+  </action>
+  <action name="actionRectangle">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/tr.png</normaloff>../../../../Qt/Tools/icons/tr.png</iconset>
+   </property>
+   <property name="text">
+    <string>Triangle</string>
+   </property>
+  </action>
+  <action name="actionLine">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/line.png</normaloff>../../../../Qt/Tools/icons/line.png</iconset>
+   </property>
+   <property name="text">
+    <string>Line</string>
+   </property>
+  </action>
+  <action name="actionBrush">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/brush.png</normaloff>../../../../Qt/Tools/icons/brush.png</iconset>
+   </property>
+   <property name="text">
+    <string>Brush</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/save.png</normaloff>../../../../Qt/Tools/icons/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Qt/Tools/icons/open.png</normaloff>../../../../Qt/Tools/icons/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
